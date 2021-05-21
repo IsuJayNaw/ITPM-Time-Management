@@ -193,6 +193,11 @@ public class InsertWorkingHoursWD extends javax.swing.JPanel {
                 btn_saveMousePressed(evt);
             }
         });
+        btn_save.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_saveActionPerformed(evt);
+            }
+        });
 
         txt_error.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         txt_error.setForeground(new java.awt.Color(255, 0, 102));
@@ -585,6 +590,10 @@ public class InsertWorkingHoursWD extends javax.swing.JPanel {
     private void txt_minMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_txt_minMouseClicked
        txt_min.setText("");
     }//GEN-LAST:event_txt_minMouseClicked
+
+    private void btn_saveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_saveActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn_saveActionPerformed
   
     private void uncheckAll(){
         
